@@ -1,0 +1,108 @@
+body {
+	background-color: #EDEDED;  
+	color: #DDBEBE;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 300;  
+ }
+
+ h1 {
+ 	color: #6C4A4A;
+ 	font-family: 'Roboto Serif', sans-serif; 
+ 	font-weight: 500;
+    font-size: 20px; 
+ }
+
+ a {
+ 	text-decoration: none; 
+ 	color: #DDBEBE; 
+ 	font-family: arial; 
+ 	font-weight: bold; 
+ 	font-size: 17px; 
+ }
+ a:hover { 
+    color: rgb(245, 222, 128);
+}
+
+h2 {
+	font-family: 'Abril Fatface', cursive; 
+	font-size: 15px; 
+	font-weight: bold;
+	color: rgb(71, 60, 56); 
+}
+
+.h2 <p> {
+	color: rgb(255, 239, 208); 
+}
+
+
+/*custom design with class (99%)*/
+.container {
+	width: 700px; 
+	margin:40px auto;
+}
+.card-white {
+	background: white; 
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px; 
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-pink {
+	background: #DDBEBE; 
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn-pink:hover {
+	background: #EDEDED;
+	color: #DDBEBE;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #DDBEBE;
+}
+.list-inline:hover i {
+	font-size: 50px;
+	color: #EDEDED;
+}
+
+/* design adjustments using ID (1%) */
+
+#introduction p {
+	margin-bottom: 40px; 
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px 
+	}
+
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px 
+	}
+
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px 
+	}
+
+}
